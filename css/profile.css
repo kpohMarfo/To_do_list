@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a.demo {
+  position: relative;
+  left: 45%;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0d6efd;
+} 
+
+body {
+  margin: 2rem;
+  background-color: #f0f5fc;
+}
+
+.back {
+  position: absolute;
+  left: 340px;
+}
+
+.btn {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 70px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.wrapper-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px var;color: #12628a;
+  background-color: rgb(49, 202, 205);
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  width: 280px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+img{
+  width: 8rem;
+  clip-path: circle(60px at center);
+  margin-top: 4.5rem;
+
+}
+
+.banner-img {
+  position: absolute;
+  background-image: url(https://asset.kompas.com/crops/cP0_yNU7YMe1Q6ZvVvgcwt0h4lE=/0x0:0x0/750x500/data/photo/2022/01/12/61de60e89a55c.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  float: bottom;
+}
+
+.description {
+  margin: 1rem 2rem;
+  font-size: 0.9rem;
+  float: bottom;
+}
+  
+  
